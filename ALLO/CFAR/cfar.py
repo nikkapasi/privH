@@ -1,6 +1,6 @@
 # cfar.py
 # Allo-based CA-CFAR (Cell-Averaging CFAR) for 2-D range–Doppler maps.
-# Author: ChatGPT (JULES guide)
+# Author: Nikhil Kapasi
 #
 # Requirements:
 #   pip install allo  (see https://cornell-zhang.github.io/allo/)
