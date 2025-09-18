@@ -1,19 +1,9 @@
 // rdm_hamming2d_tb.cpp
-#include <hls_stream.h>
+#include "hamming.h"
 #include <cmath>
 #include <cstdio>
 #include <vector>
 #include <cstdlib>
-
-// Match the DUT's typedef
-typedef float data_t;
-
-// DUT prototype (include your header if you have one)
-// #include "rdm_hamming2d.h"
-template<int MAX_R, int MAX_D>
-void rdm_hamming2d(hls::stream<data_t> &strm_in,
-                   hls::stream<data_t> &strm_out,
-                   int numRangeBins, int numVelocityBins);
 
 // -----------------------------
 // Simple golden model (CPU)

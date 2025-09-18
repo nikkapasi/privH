@@ -1,7 +1,5 @@
-#include <hls_stream.h>
+#include "hamming.h"
 #include <hls_math.h>
-
-typedef float data_t;
 
 template<int MAX_R, int MAX_D> // MAX_R = max range bins (rows), MAX_D = max Doppler bins (cols)
 void rdm_hamming2d(hls::stream<data_t> &strm_in,
